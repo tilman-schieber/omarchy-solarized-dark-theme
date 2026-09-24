@@ -29,10 +29,9 @@ Icons use `Yaru-blue`, matching the accent.
 
 ## Backgrounds
 
-Three wallpapers, all already built on the exact Solarized palette (no recoloring needed), from [GasparVardanyan/themes](https://gitlab.com/GasparVardanyan/themes) on GitLab:
+Five wallpapers:
 
-- `1-mountains.png`
-- `2-dragon-fractal.png`
-- `3-city-buildings.png`
+- `1-mountains.png`, `2-dragon-fractal.png`, `3-city-buildings.png` — already built on the exact Solarized palette (no recoloring needed), from [GasparVardanyan/themes](https://gitlab.com/GasparVardanyan/themes) on GitLab
+- `4-solarized-osaka.jpg`, `5-fuji-city.jpg` — from a Reddit [r/wallpaper post](https://www.reddit.com/r/wallpaper/comments/1qxpmbj/solarized_osaka_3440x2160) titled "Solarized Osaka"
 
-**Note on provenance:** that source repo has no declared license (no `LICENSE` file, no license field on the GitLab project) and no attribution for the original artists. Treat these as "found in a public personal dotfiles repo," not as clearly-licensed assets — swap them out if that matters for your use.
+**Note on provenance:** none of these five have a clear, explicit reuse license. The GitLab repo above has no `LICENSE` file, no license field, and no artist attribution. Reddit posts don't carry any redistribution license either — Reddit's own terms only grant Reddit itself a license to display what's posted, not a license for third parties to reuse it. Treat all five as "found on the public internet," not as clearly-licensed assets — swap them out if that matters for your use.
