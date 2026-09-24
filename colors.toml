@@ -1,0 +1,41 @@
+mode = "dark"
+
+# Ported from Ethan Schoonover's original Solarized spec (base16 palette +
+# the well-known 16-color ANSI terminal mapping). Every value below is a
+# literal, official Solarized color — nothing here is guessed. Two tiers
+# darker than the spec's own darkest tone (base03) don't exist officially;
+# those two are extrapolated by darkening base03's lightness (-4/-8 points),
+# same approach used for the Carbonfox port.
+
+accent = "#268bd2"      # blue — the standard/most iconic Solarized accent
+selection = "#073642"   # base02 — "background highlights", spec's own selection color
+muted = "#586e75"       # base01 — "comments / secondary content" in the spec
+
+background = "#002b36"        # base03
+dark_background = "#001b22"   # extrapolated, darker than base03
+darker_background = "#000b0d" # extrapolated, darker still
+lighter_background = "#073642" # base02
+
+foreground = "#839496"        # base0 — primary body text
+dark_foreground = "#586e75"   # base01 — comments/secondary (dimmest)
+light_foreground = "#657b83"  # base00 — light-mode's body text tone, used here as a mid step
+bright_foreground = "#93a1a1" # base1 — emphasized content (brightest)
+
+# ANSI colors, straight from Solarized's own canonical 16-color terminal
+# mapping (the same one used by every well-known Solarized terminal port).
+red = "#dc322f"
+yellow = "#b58900"
+orange = "#cb4b16"
+green = "#859900"
+cyan = "#2aa198"
+blue = "#268bd2"
+magenta = "#d33682"
+
+# Solarized's spec defines its "bright" ANSI colors as distinct named
+# accents too, not computed tints — used verbatim here.
+bright_red = "#cb4b16"      # orange, per the official ANSI bright-red mapping
+bright_yellow = "#657b83"   # base00
+bright_green = "#586e75"    # base01
+bright_cyan = "#93a1a1"     # base1
+bright_blue = "#839496"     # base0
+bright_magenta = "#6c71c4"  # violet
